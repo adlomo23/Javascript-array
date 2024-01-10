@@ -1,4 +1,4 @@
-import { feedMonkeys } from "./feedMonkeys";
+import { mappedFeedMonkeys } from "./feedMonkeys";
 
 describe("Given function feedMonkeys", () => {
   test("it should return an array where each monkey has one banana", () => {
@@ -6,7 +6,7 @@ describe("Given function feedMonkeys", () => {
     const fruit = "🍌";
 
     //act ->
-    const bananaResult = feedMonkeys(fruit);
+    const bananaResult = mappedFeedMonkeys(fruit);
 
     //assert ->
     expect(bananaResult).toEqual(["🐒 🍌", "🦍 🍌", "🦧 🍌"]);
@@ -17,7 +17,7 @@ describe("Given function feedMonkeys", () => {
     const fruit = "🍎";
 
     //act ->
-    const appleResult = feedMonkeys(fruit);
+    const appleResult = mappedFeedMonkeys(fruit);
 
     //assert ->
     expect(appleResult).toEqual(["🐒 🍎", "🦍 🍎", "🦧 🍎"]);
