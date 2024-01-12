@@ -13,3 +13,4 @@ describe("Given getLongWords function", () =>{
         expect(EXPECTED_RESULT).toEqual(["JavaScript", "TypeScript"]);
     })
 })
+//

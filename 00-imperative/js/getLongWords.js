@@ -20,3 +20,4 @@ export const getLongWords = (paraules) => {
 
   return longWords;
 };
+//

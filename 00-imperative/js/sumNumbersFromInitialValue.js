@@ -18,3 +18,4 @@ export const sumNumbersFromInitialValue = (NUMBER) => {
 
   return numbers;
 };
+//

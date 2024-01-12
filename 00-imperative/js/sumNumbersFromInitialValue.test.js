@@ -12,3 +12,4 @@ describe("Given NUMBERS array", () => {
     expect(EXPECTED_RESULT).toEqual([2, 3, 4, 5, 6]);
   });
 });
+//
