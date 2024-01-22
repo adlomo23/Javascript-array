@@ -5,3 +5,10 @@
  */
 
 const VALUES = [1, 2, 3];
+
+export const getWordFromValues = (values) => {
+  const result = values.reduce((accumulator, number) => {
+    return accumulator + number;
+  }, "");
+  return result;
+};

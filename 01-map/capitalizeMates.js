@@ -14,3 +14,4 @@ export const capitalizeMates = (MATES) => {
 
   return mapedArray;
 };
+//

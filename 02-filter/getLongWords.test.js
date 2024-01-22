@@ -1,4 +1,4 @@
-import { getLongWords } from "./getLongWords";
+import { getLongWords } from "./getLongWords.js";
 
 describe("Given getLongWords function", () => {
   test("when reciving LANGUAGES array, should return : ['JavaScript', 'TypeScript']", () => {

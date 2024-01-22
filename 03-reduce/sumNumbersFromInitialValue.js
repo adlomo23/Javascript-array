@@ -7,3 +7,13 @@
  */
 
 const NUMBERS = [1, 2, 3, 4, 5];
+
+export const sumNumbersFromInitialValue = (initialValue) => {
+  const partialResult = initialValue;
+
+  const result = NUMBERS.reduce((partialResult, currentValue) => {
+    return currentValue + partialResult;
+  }, partialResult);
+
+  return result;
+};
