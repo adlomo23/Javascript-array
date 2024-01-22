@@ -12,3 +12,4 @@ describe("Given capitalizeMates function", () => {
     expect(EXPECT_RESULT).toEqual(["JOHN", "JACOB", "JINGLEHEIMER", "SCHMIDT"]);
   });
 });
+//

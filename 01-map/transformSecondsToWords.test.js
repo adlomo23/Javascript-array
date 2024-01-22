@@ -12,3 +12,4 @@ describe("Given transformSecondsToWords function", () => {
     expect(EXPECTED_RESULT).toEqual(["2", "5", "100"]);
   });
 });
+//
