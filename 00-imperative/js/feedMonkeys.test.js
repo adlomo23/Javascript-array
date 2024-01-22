@@ -21,6 +21,6 @@ describe("Given function feedMonkeys", () => {
 
     //assert ->
     expect(appleResult).toEqual(["🐒 🍎", "🦍 🍎", "🦧 🍎"]);
-  })
+  });
 });
 //

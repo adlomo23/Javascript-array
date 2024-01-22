@@ -12,7 +12,7 @@ export const sumNumbersFromInitialValue = (NUMBER) => {
   let result = NUMBER;
 
   for (let index = 0; index < NUMBERS.length; index++) {
-    result  += NUMBERS[index];
+    result += NUMBERS[index];
   }
 
   return result;
