@@ -18,3 +18,13 @@ const VOTERS = [
   { name: "Jeff", age: 30, voted: true },
   { name: "Zack", age: 19, voted: false },
 ];
+
+export const getTotalVoters = (voters) => {
+  const result = voters.reduce((array, voter) => {
+    if (voter.voted) {
+      return array + 1;
+    }
+    return array;
+  }, 0);
+  return result;
+};

@@ -5,3 +5,10 @@
  */
 
 const COUNTERS = [2, 25, 43, 12, 67, 42, 28];
+
+export const getEvensOnly = (COUNTERS) => {
+  const getEvens = COUNTERS.filter((number) => {
+    return number % 2 == 0;
+  });
+  return getEvens;
+};
